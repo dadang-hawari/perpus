@@ -1,0 +1,89 @@
+*{
+    font-family: 'Poppins';
+}
+
+legend{
+    margin-left: 4%;
+    color: black;
+}
+
+fieldset.border{
+    border: 1px solid black!important;
+}
+
+
+img.img-small {
+    width: 45%;
+    margin-top: 3%;
+}
+
+input{
+    width: 95%!important;
+    height: 12%;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+}
+
+label{
+    color:black;
+}
+
+button.btnku{
+    max-height: min-content;
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 9px;
+    background-color: black;
+    color: #ffffff;
+    transition: all ease-in-out 0.3s;
+}
+
+.btnku:hover{
+    color: black;
+    background-color: white;
+
+}
+
+@media screen and (max-width:991px){
+    img.img-small {
+        width: 70%;
+        margin-top: 7%;
+    }
+}
+
+@media screen and (max-width:767px){
+    input{
+     margin-left: 10%!important;
+     width: 80%!important;
+     padding: 20px;
+    }    
+    label{
+        margin-left:10%;
+    }
+}
+
+
+button{
+    padding:8px;
+   
+}
+
+a.buat-akun{
+    color: black;
+    transition: ease-in-out 0.2s;
+   
+}
+a.buat-akun:hover{
+    color:black;
+}
+
+#round{
+    list-style-type: none; 
+    border:3px solid rgb(0, 0, 0) ;
+     font-size: 45pt; 
+     border-radius: 50%; 
+     padding: 30% 3% 30% 3%;
+    color:#00ff08!important ;
+}

@@ -1,0 +1,160 @@
+*{
+    font-family: "Poppins";
+    padding:0;
+    margin:0;
+    text-decoration: none!important;
+    list-style: none!important;
+    box-sizing: border-box!important;
+}
+
+body{
+    overflow-x:hidden;
+
+}
+
+
+.head-1{
+    font-size: 70px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+i.icon{
+    border: 3px solid black;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+i.icon-out{
+    font-size: 14pt;
+    margin-top: 10px!important;
+    color: white;
+}
+.container{
+    transition: all ease-in-out 0.2s;
+    border-radius: 30px;
+    cursor: default;
+    width: 95%!important;
+    margin-left:2%!important;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.1)!important;
+}
+.container:hover{
+    margin-top: -2%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)!important;    
+}
+.main-container{
+    border-radius: 30px;
+    width: 95%;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.1)!important;
+}
+
+#main-img{
+    margin-left: 2%;
+    width: 95%;
+}
+
+.p-gambar{
+    width: 80%;
+    margin: 10%;
+    border-radius: 6%;
+
+}
+button.btnku{
+    height: 10%;
+    width: 90%;
+    border: 2px solid black;
+    border-bottom:5px solid black;
+    border-radius: 9px;
+    background-color: black;
+    color: #ffffff;
+    transition: all ease-in-out 0.3s;
+    margin-left: 5%;
+}
+
+.btnku:hover{
+    color: black;
+    background-color: white;
+
+
+}
+
+h3{
+    font-size:99%;
+    margin-left:8%;
+}
+button.btn-1nfo{
+    margin-top: 5%;
+    height: 10%;
+    width: 90%;
+    border: 2px 0px 2px 0px solid black !;
+    border-radius: 9px;
+    background-color: rgb(255, 255, 255) ;
+    margin-left: 5%;
+    border-bottom: 5px solid rgb(0, 0, 0);
+}
+
+header{
+    position: fixed; 
+    width: 100%;
+}
+nav {
+    background-color: #000000;
+    height: 80px;
+    width: 100%;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+span.logo {
+    font-size: 35px;
+    Line-height: 80px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    padding:100px  50px;
+}
+
+nav ul {
+    position: inherit;
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    font-size: 17px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    padding: 10px 17px;
+    border-radius: 3px;
+}
+a{
+    transition: ease-out 0.3s;
+}
+a.active, a:hover {
+
+    color: rgb(172, 172, 172);
+}
+
+.btn {
+    float: right;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.border-none{
+    border: none!important;
+}

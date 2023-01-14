@@ -1,0 +1,73 @@
+*{
+    font-family: 'Poppins';
+    box-sizing: border-box;
+ 
+}
+
+body{
+    margin:0;
+    padding:0;
+    background-color: white;
+    overflow-x: hidden;
+}
+
+legend{
+    margin-left: 4%;
+    color: black;
+}
+
+fieldset.border{
+    margin: auto;
+    border: 1px solid black!important;
+}
+ input{
+    width: 60%!important;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+}
+input[type="checkbox"]
+{   
+    margin-left: -1%;
+    margin-right: -28%;
+    vertical-align:middle!important;
+}
+
+span{
+    margin:auto;
+}
+label{
+        margin-left: 38%;
+}
+
+@media screen and (max-width:480px){
+    h4{
+        text-align: center;
+    }
+}
+button.btnku{
+    max-height: min-content;
+    width: 30%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 9px;
+    background-color: black;
+    color: #ffffff;
+    transition: all ease-out 0.3s;
+}
+
+.btnku:hover{
+    color: black;
+    background-color: #ffffff;
+
+}
+
+
+a.buat-akun{
+    color: black;
+    transition: ease-in-out 0.2s;
+}
+a.buat-akun:hover{
+    color:#ffffff;
+}
